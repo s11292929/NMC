@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>情報セキュリティ方針 | 株式会社ネットメディアクリエーション</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #00d1ff 0%, #007bff 100%);
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.4);
+        }
+        body { font-family: 'Noto Sans JP', 'Outfit', sans-serif; color: #1e293b; background-color: #f8fafc; }
+        .font-outfit { font-family: 'Outfit', sans-serif; }
+        .glass-card { background: var(--glass-bg); backdrop-filter: blur(12px); border: 1px solid var(--glass-border); }
+        .section-title-en { font-size: 0.875rem; letter-spacing: 0.2em; color: #007bff; text-transform: uppercase; font-weight: 700; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-slate-200/50 py-4">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-4 group">
+                <div class="relative w-11 h-11 bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300">
+                    <svg viewBox="0 0 24 24" class="w-7 h-7 text-white fill-none stroke-current" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 17V7l10 10V7" />
+                        <path d="M7 17l10-10" class="opacity-30" />
+                    </svg>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-xl font-bold tracking-[0.05em] text-slate-900 leading-none font-outfit">NET MEDIA CREATION</span>
+                    <span class="text-[9px] font-bold tracking-[0.3em] text-blue-500 mt-1 uppercase">Innovative Infrastructure</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center space-x-10 text-sm font-bold">
+                <a href="index.html" class="text-slate-600 hover:text-blue-600 transition">TOP</a>
+                <a href="about.html" class="text-slate-600 hover:text-blue-600 transition">ABOUT</a>
+                <a href="index.html#services" class="text-slate-600 hover:text-blue-600 transition">SERVICES</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pt-48 pb-20 bg-slate-900 text-white text-center relative overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <span class="section-title-en !text-cyan-400">Security Policy</span>
+            <h1 class="text-4xl font-bold mt-6">情報セキュリティ方針</h1>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="prose prose-slate lg:prose-lg mx-auto">
+                <p class="mb-8 leading-relaxed">株式会社ネットメディアクリエーション（以下、「当社」）は、お客様からお預かりした情報資産および当社の情報資産をあらゆる脅威から守り、社会の信頼に応えるため、以下の情報セキュリティ方針を定め、これを実践します。</p>
+
+                <h3 class="text-xl font-bold mt-12 mb-4 border-l-4 border-blue-600 pl-4">1. 管理体制の構築</h3>
+                <p class="mb-6 leading-relaxed">当社は、情報セキュリティの維持および改善のために、必要な管理体制を整備し、情報セキュリティ対策を社内の正式な規則として定めます。</p>
+
+                <h3 class="text-xl font-bold mt-12 mb-4 border-l-4 border-blue-600 pl-4">2. 法令および契約上の要求事項の遵守</h3>
+                <p class="mb-6 leading-relaxed">当社は、情報セキュリティに関わる法令、規制、規範、およびお客様との契約上の要求事項を遵守します。</p>
+
+                <h3 class="text-xl font-bold mt-12 mb-4 border-l-4 border-blue-600 pl-4">3. 従業員の取組み</h3>
+                <p class="mb-6 leading-relaxed">当社は、全ての従業員（役員を含む）に対し、情報セキュリティの重要性を認識させ、情報資産の適切な取扱いを徹底させるための教育・訓練を継続的に実施します。</p>
+
+                <h3 class="text-xl font-bold mt-12 mb-4 border-l-4 border-blue-600 pl-4">4. 事故への対応</h3>
+                <p class="mb-6 leading-relaxed">当社は、情報セキュリティ上の事故が発生した場合、迅速に原因究明と対策を行い、被害を最小限に抑えるとともに、再発防止に努めます。</p>
+
+                <h3 class="text-xl font-bold mt-12 mb-4 border-l-4 border-blue-600 pl-4">5. 継続的改善</h3>
+                <p class="mb-6 leading-relaxed">当社は、情報セキュリティの管理体制や対策を定期的に見直し、継続的な改善を図ります。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-slate-500 text-xs font-outfit uppercase tracking-widest">&copy; 2026 Net Media Creation Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
